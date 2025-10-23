@@ -1,0 +1,374 @@
+2025-10-21 17:58:49,823 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:49,824 - QueryStateLogger - INFO - Creating connection pool...
+2025-10-21 17:58:49,825 - QueryStateLogger - INFO - Creating connection pool with URL: postgresql://postgre...
+2025-10-21 17:58:49,969 - QueryStateLogger - INFO - Connection pool created successfully
+2025-10-21 17:58:49,970 - QueryStateLogger - INFO - Connection pool created successfully
+2025-10-21 17:58:49,986 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:52,665 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:52,692 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:52,848 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:55,885 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:55,889 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:58:56,081 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:07,862 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:07,866 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:10,548 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:10,553 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:10,808 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:14,974 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:14,978 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 17:59:15,135 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:44,672 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:44,677 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:48,009 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:48,012 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:48,154 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:50,618 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:50,621 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:50,793 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:54,940 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:54,957 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:59,536 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:59,543 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:00:59,903 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:05,085 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:05,132 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:05,599 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:14,095 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:14,125 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:14,487 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:20,822 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:20,830 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:21,048 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:27,902 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:27,911 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:01:28,406 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:03:19,627 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:03:48,220 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:03:48,228 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:03:48,732 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:03,808 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:03,808 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:04,012 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:16,975 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:16,985 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:17,361 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:27,088 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:27,103 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:31,331 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:31,340 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:31,805 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:51,249 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:51,269 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:51,701 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:51,714 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:52,245 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:04:52,727 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:01,287 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:01,303 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:01,733 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:04,869 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:04,889 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:05:06,212 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:09:55,231 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:09:55,255 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:09:55,636 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:01,551 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:01,575 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:02,072 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:46,208 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:46,235 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:10:46,913 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:01,558 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:01,563 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:12,682 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:12,690 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:15,933 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:15,933 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:16,138 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:56,096 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:11:56,136 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:13,561 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:13,589 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:14,492 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:46,115 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:46,136 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:46,999 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:47,313 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:47,330 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:48,487 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:57,654 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:57,665 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:12:57,832 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:18,993 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:19,033 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:23,074 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:23,084 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:23,528 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:32,349 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:32,357 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:33,033 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:42,841 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:42,848 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:14:43,238 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:01,633 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:01,637 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:01,747 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:03,586 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:03,590 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:16:04,035 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:21:02,923 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:23:09,058 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:23:14,671 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:51:58,555 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:51:58,591 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:03,210 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:09,868 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:21,360 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:21,409 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:28,809 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:28,846 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:29,932 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:32,391 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:32,424 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:33,088 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:33,118 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:33,627 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:33,654 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:35,177 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:36,771 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:36,798 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:37,397 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:37,472 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:37,490 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:38,622 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:44,610 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:44,637 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:45,595 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:49,413 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:49,450 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:50,284 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:55,786 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:55,804 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:53:56,284 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:54:29,192 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:54:40,833 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:54:55,918 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:55:18,104 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:31,366 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:31,384 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:31,616 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:32,997 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:33,012 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:57:33,265 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:59:17,552 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 18:59:17,559 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:00:56,494 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:00:56,497 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:13,996 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:14,001 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:18,952 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:18,959 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:19,229 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:22,192 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:22,196 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:22,843 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:25,220 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:25,226 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:25,696 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:28,089 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:28,102 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:28,454 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:32,318 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:32,318 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:32,580 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:35,125 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:35,136 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:35,444 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:37,880 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:37,885 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:38,219 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:41,073 - QueryStateLogger - INFO - Saving journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:41,081 - QueryStateLogger - INFO - Goals saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:01:41,474 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:21,477 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:21,483 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:22,588 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:22,598 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:22,814 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:27,587 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:27,602 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:28,083 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:31,887 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:31,901 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:32,425 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:36,074 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:36,085 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:36,626 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:51,772 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:51,790 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:02:52,355 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:03:49,898 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:03:49,920 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:03:50,376 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:26,718 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:26,737 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:26,934 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:30,274 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:30,287 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:30,827 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:41,528 - QueryStateLogger - INFO - Saving journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:41,541 - QueryStateLogger - INFO - Milestones saved successfully: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:45,883 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:45,889 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:47,504 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:47,515 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:48,472 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:48,478 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:49,834 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:07:49,836 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:09:08,790 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:09:08,790 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:09:53,196 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:10:06,802 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:10:28,361 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:10:42,640 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:10:53,223 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:12:58,097 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:12:58,097 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:05,545 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:05,547 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:08,072 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:08,072 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:50,049 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:13:50,054 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:27,834 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:27,834 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:29,519 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:29,519 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:49,451 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:49,475 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:50,592 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:14:50,608 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:15:37,555 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:15:37,608 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:18:19,826 - QueryStateLogger - INFO - Getting journey canvas: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:18:19,832 - QueryStateLogger - INFO - Getting journey canvas: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:24:31,456 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:24:31,494 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:24:39,714 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:24:39,716 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:26:06,783 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:26:06,783 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:26:07,947 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:26:07,951 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:26:12,823 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:26:12,833 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:26:30,889 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:26:30,895 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:27:46,617 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:27:46,624 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:28:05,472 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:28:05,483 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:28:10,343 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:11,281 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:11,293 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:22,947 - QueryStateLogger - INFO - Creating new journey: Untitled Journeydsdsd
+2025-10-21 19:29:22,952 - QueryStateLogger - INFO - Journey created successfully: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:29:27,624 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:27,635 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:29,279 - QueryStateLogger - INFO - Getting journey canvas: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:29:34,156 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:34,163 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:36,486 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:29:37,468 - QueryStateLogger - INFO - Getting journey canvas: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:29:37,694 - QueryStateLogger - INFO - Getting journey canvas: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:30:19,184 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:30:19,202 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:30:20,896 - QueryStateLogger - INFO - Getting journey canvas: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:33:00,843 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:00,857 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:06,719 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:06,729 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:08,227 - QueryStateLogger - INFO - Getting journey: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:33:12,391 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:12,399 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:26,320 - QueryStateLogger - INFO - Getting journey: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:33:31,047 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:33:31,055 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:33:35,936 - QueryStateLogger - INFO - Getting journey milestones: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:33:35,945 - QueryStateLogger - INFO - Getting journey milestones: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:33:57,571 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:33:57,578 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:34:05,570 - QueryStateLogger - INFO - Getting journey: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:10,076 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:10,076 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:13,346 - QueryStateLogger - INFO - Getting journey milestones: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:13,348 - QueryStateLogger - INFO - Getting journey milestones: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:15,682 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:15,692 - QueryStateLogger - INFO - Getting journey goals: 1eda823f-358c-46cc-8dff-83d5d5a38af3
+2025-10-21 19:34:53,296 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:34:53,312 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:34:55,745 - QueryStateLogger - INFO - Getting journey: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:34:55,755 - QueryStateLogger - ERROR - Error getting journey: 3 validation errors for JourneyResponse
+journey.milestones.0.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='active', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+journey.milestones.1.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='deleted', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+journey.milestones.2.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='deleted', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+2025-10-21 19:35:15,724 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:35:15,743 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:35:17,332 - QueryStateLogger - INFO - Getting journey: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:35:21,062 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:35:21,081 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:35:22,534 - QueryStateLogger - INFO - Getting journey: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:35:22,539 - QueryStateLogger - ERROR - Error getting journey: 3 validation errors for JourneyResponse
+journey.milestones.0.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='active', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+journey.milestones.1.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='deleted', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+journey.milestones.2.status
+  Input should be 'pending', 'in-progress', 'completed' or 'overdue' [type=enum, input_value='deleted', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+2025-10-21 19:36:11,977 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:36:11,994 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:36:13,403 - QueryStateLogger - INFO - Getting journey: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:19,435 - QueryStateLogger - INFO - Getting journey goals: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:19,441 - QueryStateLogger - INFO - Getting journey goals: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:23,910 - QueryStateLogger - INFO - Saving journey goals: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:23,915 - QueryStateLogger - INFO - Goals saved successfully: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:26,489 - QueryStateLogger - INFO - Getting journey milestones: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:26,496 - QueryStateLogger - INFO - Getting journey milestones: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:31,335 - QueryStateLogger - INFO - Saving journey milestones: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:31,339 - QueryStateLogger - INFO - Milestones saved successfully: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:35,370 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:36:35,386 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:36:37,283 - QueryStateLogger - INFO - Getting journey: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:36:37,289 - QueryStateLogger - ERROR - Error getting journey: 1 validation error for JourneyResponse
+journey.goals.0.status
+  Input should be 'not-started', 'in-progress', 'completed' or 'cancelled' [type=enum, input_value='active', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/enum
+2025-10-21 19:38:39,049 - QueryStateLogger - INFO - Getting journey goals: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:38:39,051 - QueryStateLogger - INFO - Creating connection pool...
+2025-10-21 19:38:39,051 - QueryStateLogger - INFO - Creating connection pool with URL: postgresql://postgre...
+2025-10-21 19:38:39,255 - QueryStateLogger - INFO - Connection pool created successfully
+2025-10-21 19:38:39,255 - QueryStateLogger - INFO - Connection pool created successfully
+2025-10-21 19:38:39,274 - QueryStateLogger - INFO - Getting journey goals: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:38:42,647 - QueryStateLogger - INFO - Getting journey milestones: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:38:42,662 - QueryStateLogger - INFO - Getting journey milestones: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:38:48,642 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:38:48,686 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:38:50,430 - QueryStateLogger - INFO - Getting journey: a4213aa8-4299-4bc8-a6e6-d428162057ab
+2025-10-21 19:38:55,968 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:38:55,984 - QueryStateLogger - INFO - Listing journeys for user: None
+2025-10-21 19:38:57,514 - QueryStateLogger - INFO - Getting journey: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:39:00,161 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:39:00,165 - QueryStateLogger - INFO - Getting journey goals: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:39:02,917 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
+2025-10-21 19:39:02,923 - QueryStateLogger - INFO - Getting journey milestones: 03de1667-b339-4f41-b5aa-a68ae93e4121
