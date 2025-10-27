@@ -24,7 +24,13 @@ import {
 } from "@/components/ui/alert-dialog"
 import { useState } from 'react'
 import CanvasPage from '../canvas/page'
-import { Download, Share, Play, Archive } from 'lucide-react'
+import { Download, Share, Play, Archive, MoreHorizontal, CheckCircle, Send } from 'lucide-react'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
 export default function NewJourneyPage() {
     const router = useRouter()
@@ -58,71 +64,77 @@ export default function NewJourneyPage() {
     }
     return (
         <div className="h-full">
-            {/* Journey name and action buttons */}
-            <div className="flex justify-between items-start gap-6 mb-4 px-4 pt-4">
+            {/* Clean header with minimal actions */}
+            <div className="flex justify-between items-center gap-6 mb-6 px-4 pt-4">
                 {/* Journey Name */}
                 <div className="flex-1">
-                    <h1 className="text-3xl font-bold text-foreground">
+                    <h1 className="text-2xl font-semibold text-foreground">
                         {journeyName || 'Untitled Journey'}
                     </h1>
                 </div>
                 
-                {/* Action Buttons */}
-                <div className="flex gap-2">
+                {/* Minimal Actions */}
+                <div className="flex items-center gap-1">
+                    {/* Primary Actions - Icon + Text */}
                     <Button 
-                        variant="default" 
+                        variant="outline"
                         size="sm"
-                        onClick={() => toast.info('Export functionality coming soon!')}
-                        title="Export Journey"
+                        onClick={handleSaveAndExit}
+                        disabled={isSaving || isLoading}
+                        className="border-green-200 text-green-700 hover:bg-green-50 dark:border-green-800 dark:text-green-300 dark:hover:bg-green-900/20"
                     >
-                        <Download className="h-4 w-4 mr-2" />
-                        Export
+                        <CheckCircle className="h-4 w-4 mr-2" />
+                        {isSaving ? 'Saving...' : 'Save & Exit'}
                     </Button>
                     
                     <Button 
-                        variant="default" 
-                        size="sm"
-                        onClick={() => toast.info('Share functionality coming soon!')}
-                        title="Share Journey"
-                    >
-                        <Share className="h-4 w-4 mr-2" />
-                        Share
-                    </Button>
-                    
-                    <Button 
-                        variant="default" 
+                        variant="outline"
                         size="sm"
                         onClick={() => toast.info('Play functionality coming soon!')}
-                        title="Start Journey"
+                        className="border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
                     >
                         <Play className="h-4 w-4 mr-2" />
                         Start
                     </Button>
                     
-                    <Button 
-                        variant="outline" 
-                        size="sm"
-                        onClick={() => toast.info('Archive functionality coming soon!')}
-                        title="Archive Journey"
-                        className="border-destructive/20 hover:border-destructive/40 hover:bg-destructive/5"
-                    >
-                        <Archive className="h-4 w-4 mr-2 text-destructive" />
-                        <span className="text-destructive">Archive</span>
-                    </Button>
-                    
-                    <Button 
-                        variant="default"
-                        size="sm"
-                        onClick={handleSaveAndExit}
-                        disabled={isSaving || isLoading}
-                    >
-                        {isSaving ? 'Saving...' : 'Save & Exit'}
-                    </Button>
+                    {/* More Actions Dropdown */}
+                    <DropdownMenu>
+                        <DropdownMenuTrigger asChild>
+                            <Button variant="outline" size="sm" className="px-2">
+                                <MoreHorizontal className="h-4 w-4" />
+                            </Button>
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent align="end">
+                            <DropdownMenuItem onClick={() => toast.info('Export functionality coming soon!')}>
+                                <Download className="h-4 w-4 mr-2" />
+                                Export
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => toast.info('Share functionality coming soon!')}>
+                                <Share className="h-4 w-4 mr-2" />
+                                Share
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => toast.info('Validate functionality coming soon!')}>
+                                <CheckCircle className="h-4 w-4 mr-2" />
+                                Validate
+                            </DropdownMenuItem>
+                            <DropdownMenuItem onClick={() => toast.info('Publish functionality coming soon!')}>
+                                <Send className="h-4 w-4 mr-2" />
+                                Publish
+                            </DropdownMenuItem>
+                            <DropdownMenuItem 
+                                onClick={() => toast.info('Archive functionality coming soon!')}
+                                className="text-red-600 focus:text-red-600"
+                            >
+                                <Archive className="h-4 w-4 mr-2" />
+                                Archive
+                            </DropdownMenuItem>
+                        </DropdownMenuContent>
+                    </DropdownMenu>
                     
                     {/* Cancel with confirmation dialog */}
                     <AlertDialog open={showCancelDialog} onOpenChange={setShowCancelDialog}>
                         <AlertDialogTrigger asChild>
-                            <Button variant="outline" size="sm" onClick={handleCancelClick}>
+                            <Button variant="outline" size="sm" className="border-red-200 text-red-700 hover:bg-red-50 dark:border-red-800 dark:text-red-300 dark:hover:bg-red-900/20">
                                 Cancel
                             </Button>
                         </AlertDialogTrigger>
@@ -151,37 +163,14 @@ export default function NewJourneyPage() {
                             </AlertDialogFooter>
                         </AlertDialogContent>
                     </AlertDialog>
-                    
-                    <Button variant="default" size="sm">Validate</Button>
-                    <Button variant="default" size="sm">Publish</Button>
                 </div>
             </div>
             <Tabs defaultValue="home" className="h-full flex flex-col px-4">
-                <TabsList className="grid w-full grid-cols-4 bg-muted/50">
-                    <TabsTrigger 
-                        value="home"
-                        className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
-                    >
-                        Home
-                    </TabsTrigger>
-                    <TabsTrigger 
-                        value="journey"
-                        className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
-                    >
-                        Journey
-                    </TabsTrigger>
-                    <TabsTrigger 
-                        value="milestones"
-                        className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
-                    >
-                        Milestones
-                    </TabsTrigger>
-                    <TabsTrigger 
-                        value="goals"
-                        className="data-[state=active]:bg-background data-[state=active]:text-foreground data-[state=active]:shadow-sm"
-                    >
-                        Goals
-                    </TabsTrigger>
+                <TabsList className="grid w-full grid-cols-4 bg-muted/30">
+                    <TabsTrigger value="home">Home</TabsTrigger>
+                    <TabsTrigger value="journey">Journey</TabsTrigger>
+                    <TabsTrigger value="milestones">Milestones</TabsTrigger>
+                    <TabsTrigger value="goals">Goals</TabsTrigger>
                 </TabsList>
 
                 <TabsContent value="home" className="flex-1">

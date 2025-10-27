@@ -7,6 +7,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { Controller, useForm } from "react-hook-form"
 import * as z from "zod"
 import { Button } from '@/components/ui/button'
+import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
@@ -38,6 +39,20 @@ export default function JourneyHomePage() {
         lastError,
         clearError
     } = useJourneyStore()
+    
+    const [currentTime, setCurrentTime] = useState<string>('Loading...')
+    
+    useEffect(() => {
+        const updateTime = () => {
+            const now = new Date()
+            setCurrentTime(`${now.toLocaleDateString()} at ${now.toLocaleTimeString()}`)
+        }
+        
+        updateTime()
+        const interval = setInterval(updateTime, 1000)
+        
+        return () => clearInterval(interval)
+    }, [])
 
     const [isEditing, setIsEditing] = useState(false)
     const [isCreating, setIsCreating] = useState(false)
@@ -204,8 +219,9 @@ export default function JourneyHomePage() {
                             <div className="flex gap-2">
                                 <Button 
                                     type="submit"
+                                    variant="outline"
                                     disabled={isCreating || !form.formState.isValid}
-                                    className="flex-1"
+                                    className="flex-1 border-green-200 text-green-700 hover:bg-green-50 dark:border-green-800 dark:text-green-300 dark:hover:bg-green-900/20"
                                 >
                                     <Save className="h-4 w-4 mr-2" />
                                     {isCreating ? 'Creating...' : (isNewJourney ? 'Create Journey' : 'Save Changes')}
@@ -215,6 +231,7 @@ export default function JourneyHomePage() {
                                     variant="outline" 
                                     onClick={handleCancel}
                                     disabled={isCreating}
+                                    className="border-gray-200 text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
                                 >
                                     <X className="h-4 w-4 mr-2" />
                                     Cancel
@@ -238,33 +255,13 @@ export default function JourneyHomePage() {
                     <p className="text-muted-foreground mt-2">{journeyDescription || 'No description provided'}</p>
                 </div>
 
-                {/* Journey Action Buttons */}
-                <div className="flex gap-2">
+                {/* Minimal Action Buttons */}
+                <div className="flex items-center gap-1">
                     <Button 
-                        variant="default" 
-                        size="sm"
-                        onClick={() => toast.info('Export functionality coming soon!')}
-                        title="Export Journey"
-                    >
-                        <Download className="h-4 w-4 mr-2" />
-                        Export
-                    </Button>
-                    
-                    <Button 
-                        variant="default" 
-                        size="sm"
-                        onClick={() => toast.info('Share functionality coming soon!')}
-                        title="Share Journey"
-                    >
-                        <Share className="h-4 w-4 mr-2" />
-                        Share
-                    </Button>
-                    
-                    <Button 
-                        variant="default" 
+                        variant="outline" 
                         size="sm"
                         onClick={() => toast.info('Play functionality coming soon!')}
-                        title="Start Journey"
+                        className="border-blue-200 text-blue-700 hover:bg-blue-50 dark:border-blue-800 dark:text-blue-300 dark:hover:bg-blue-900/20"
                     >
                         <Play className="h-4 w-4 mr-2" />
                         Start
@@ -273,53 +270,53 @@ export default function JourneyHomePage() {
                     <Button 
                         variant="outline" 
                         size="sm"
-                        onClick={() => toast.info('Archive functionality coming soon!')}
-                        title="Archive Journey"
-                        className="border-destructive/20 hover:border-destructive/40 hover:bg-destructive/5"
+                        onClick={() => toast.info('Export functionality coming soon!')}
+                        className="border-gray-200 text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+                        title="Export Journey"
                     >
-                        <Archive className="h-4 w-4 mr-2 text-destructive" />
-                        <span className="text-destructive">Archive</span>
+                        <Download className="h-4 w-4" />
+                    </Button>
+                    
+                    <Button 
+                        variant="outline" 
+                        size="sm"
+                        onClick={() => toast.info('Share functionality coming soon!')}
+                        className="border-gray-200 text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800"
+                        title="Share Journey"
+                    >
+                        <Share className="h-4 w-4" />
+                    </Button>
+                    
+                    <Button 
+                        variant="outline" 
+                        size="sm"
+                        onClick={() => toast.info('Archive functionality coming soon!')}
+                        className="border-red-200 text-red-700 hover:bg-red-50 dark:border-red-800 dark:text-red-300 dark:hover:bg-red-900/20"
+                        title="Archive Journey"
+                    >
+                        <Archive className="h-4 w-4" />
                     </Button>
                 </div>
             </div>
 
-            {/* Journey Details Card */}
-            <Card>
-                <CardHeader>
-                    <div className="flex justify-between items-start">
-                        <div>
-                            <CardTitle>Journey Details</CardTitle>
-                            <CardDescription>
-                                Manage your journey information and settings
-                            </CardDescription>
-                        </div>
-                        <Button variant="outline" onClick={handleEdit}>
-                            <Edit className="h-4 w-4 mr-2" />
-                            Edit Details
-                        </Button>
-                    </div>
-                </CardHeader>
-                <CardContent>
-                    <div className="space-y-4">
-                        <div>
-                            <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wide">Journey ID</h4>
-                            <p className="text-sm font-mono bg-muted p-2 rounded">{journeyId}</p>
-                        </div>
-                        <div>
-                            <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wide">Status</h4>
-                            <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-400">
-                                Active
-                            </span>
-                        </div>
-                        <div>
-                            <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wide">Last Updated</h4>
-                            <p className="text-sm text-muted-foreground">
-                                {new Date().toLocaleDateString()} at {new Date().toLocaleTimeString()}
-                            </p>
-                        </div>
-                    </div>
-                </CardContent>
-            </Card>
+            {/* Clean status bar */}
+            <div className="flex items-center justify-between p-4 bg-muted/30 rounded-lg border">
+                <div className="flex items-center gap-4">
+                    <Badge variant="success" className="text-xs">
+                        <Save className="h-3 w-3 mr-1" />
+                        Active
+                    </Badge>
+                    <span className="text-sm text-muted-foreground">
+                        ID: {journeyId?.slice(0, 8)}...
+                    </span>
+                </div>
+                <div className="flex items-center gap-2">
+                    <Button variant="outline" size="sm" onClick={handleEdit}>
+                        <Edit className="h-4 w-4 mr-2" />
+                        Edit
+                    </Button>
+                </div>
+            </div>
         </div>
     )
 }

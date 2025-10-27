@@ -9,7 +9,7 @@ import { toast } from 'sonner'; // or your preferred toast library
 class JourneyAPIClient {
   private baseUrl: string;
 
-  constructor(baseUrl: string = 'http://localhost:8000') {
+  constructor(baseUrl: string = 'http://localhost:8001') {
     this.baseUrl = baseUrl;
   }
 

@@ -11,6 +11,7 @@ import { LoopNode } from "@/components/nodes/LoopNode";
 import { useNodeActions } from "@/hooks/useNodeActions";
 import { useDnD } from "@/hooks/useDnD";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { ContextMenu } from "@/components/context-menu-v2";
 import { EntryNodeModal } from "@/components/modals/EntryNodeModal";
 import { DecisionNodeModal } from "@/components/modals/DecisionNodeModal";
@@ -730,7 +731,7 @@ function FlowArea() {
             <Button variant="outline" size="sm" className="flex items-center gap-2" onClick={handlePaste} title="Paste (Ctrl+V)">
               <Clipboard className="h-4 w-4" />
             </Button>
-            <Button variant="outline" size="sm" className="flex items-center gap-2" onClick={handleDelete} title="Delete (Del)">
+            <Button variant="outline" size="sm" className="flex items-center gap-2 border-red-200 text-red-700 hover:bg-red-50 dark:border-red-800 dark:text-red-300 dark:hover:bg-red-900/20" onClick={handleDelete} title="Delete (Del)">
               <Trash2 className="h-4 w-4" />
             </Button>
           </div>
@@ -809,7 +810,7 @@ function FlowArea() {
           {/* Save */}
           <div className="border-l pl-2 ml-2">
           <Button 
-            variant="default" 
+            variant="primary" 
             size="sm" 
             className="flex items-center gap-2" 
             onClick={handleSaveCanvas}
@@ -955,14 +956,28 @@ function FlowArea() {
                 }}
               />
             )}
-            <Panel position="top-left" className="bg-card/80 backdrop-blur-sm p-2 rounded-lg border shadow-sm">
-              <div className="flex flex-col gap-1 text-xs text-muted-foreground">
-                <div>Nodes: {nodes.length}</div>
-                <div>Edges: {edges.length}</div>
-                <div className={`flex items-center gap-1 ${snapToGrid ? 'text-primary' : ''}`}>
+            <Panel position="top-left" className="bg-card/80 backdrop-blur-sm p-3 rounded-lg border shadow-sm">
+              <div className="flex flex-col gap-2 text-xs">
+                <div className="flex items-center gap-2">
+                  <span className="text-muted-foreground">Status:</span>
+                  <Badge variant="success" className="text-xs">
+                    <Save className="h-3 w-3 mr-1" />
+                    Ready
+                  </Badge>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-muted-foreground">Canvas:</span>
+                  <Badge variant="outline-info" className="text-xs">
+                    {nodes.length} nodes
+                  </Badge>
+                  <Badge variant="outline-info" className="text-xs">
+                    {edges.length} edges
+                  </Badge>
+                </div>
+                <div className={`flex items-center gap-1 ${snapToGrid ? 'text-primary' : 'text-muted-foreground'}`}>
                   <Grid3x3 className="h-3 w-3" />
                   {snapToGrid ? 'Grid: On' : 'Grid: Off'}
-          </div>
+                </div>
               </div>
             </Panel>
           </ReactFlow>

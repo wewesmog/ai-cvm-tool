@@ -35,15 +35,16 @@ export function CustomEdge({
       <BaseEdge 
         id={id} 
         path={edgePath}
+        className="react-flow__edge-path"
         style={{
           strokeWidth: 2,
-          stroke: selected ? 'hsl(var(--primary))' : 'hsl(var(--muted-foreground))',
+          stroke: selected ? 'hsl(var(--primary))' : '#64748b',
         }}
         markerEnd={{
           type: MarkerType.ArrowClosed,
           width: 20,
           height: 20,
-          color: selected ? 'hsl(var(--primary))' : 'hsl(var(--muted-foreground))',
+          color: selected ? 'hsl(var(--primary))' : '#64748b',
         }}
       />
       <EdgeLabelRenderer>

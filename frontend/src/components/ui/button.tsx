@@ -9,11 +9,25 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        // Supabase-style variants
+        primary: "bg-green-500 text-white hover:bg-green-600 shadow-sm",
+        warning: "bg-orange-500 text-white hover:bg-orange-600 shadow-sm",
+        danger: "bg-red-500 text-white hover:bg-red-600 shadow-sm",
+        success: "bg-emerald-500 text-white hover:bg-emerald-600 shadow-sm",
+        info: "bg-blue-500 text-white hover:bg-blue-600 shadow-sm",
+        
+        // Minimalist outline variants (default)
+        outline:
+          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
+        "outline-subtle":
+          "border border-gray-300 bg-transparent text-gray-700 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-300 dark:hover:bg-gray-800",
+        "outline-muted":
+          "border border-gray-200 bg-gray-50 text-gray-600 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700",
+        
+        // Legacy variants
         default: "bg-primary text-primary-foreground hover:bg-primary/90",
         destructive:
           "bg-destructive text-white hover:bg-destructive/90 focus-visible:ring-destructive/20 dark:focus-visible:ring-destructive/40 dark:bg-destructive/60",
-        outline:
-          "border bg-background shadow-xs hover:bg-accent hover:text-accent-foreground dark:bg-input/30 dark:border-input dark:hover:bg-input/50",
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost:
@@ -30,7 +44,7 @@ const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: "default",
+      variant: "outline",
       size: "default",
     },
   }

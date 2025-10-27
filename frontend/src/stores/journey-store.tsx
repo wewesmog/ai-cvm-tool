@@ -212,7 +212,7 @@ const useJourneyStore = create<JourneyState>()(
                 };
 
                 // API Configuration
-                const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+                const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8001';
 
                 return {
                     // Initial state
